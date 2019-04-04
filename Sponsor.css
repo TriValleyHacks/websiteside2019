@@ -1,0 +1,134 @@
+body{
+  background-color: black;
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   width: 100%;
+}
+
+h1{
+  background-color:#00f2bb;
+  padding-bottom: 5%;
+}
+.row{
+  padding-top: 5%;
+}
+.menu {
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  background-image: "circuit.png"; 
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  z-index: 300;
+  
+}
+
+.menu a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #000000;
+  color: white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.register{
+  background-color:black;
+  color:white;
+  float: right;
+  border-color: black;
+  
+}
+
+.title{
+  color:#00f2bb;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  padding-top:5%;
+  background-color: black;
+ 
+}
+/*
+#ISACA{
+	width: inherit;
+	height: 40%;
+	padding-top: 15%;
+	float: center;
+	padding-bottom:25%;
+}*/
+#title{
+    font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float: center;
+  padding-top: 7%;
+  
+}
+
+p{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+}
+
+h2{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float: center;
+  text-align: center; 
+  margin-top:7%;
+  padding-top: 5%;
+    background-color:#00f2bb;
+  padding-bottom: 5%;
+}
+/*
+#NGN{
+    width: 25%;
+    height: 130%;
+    padding-top: 25%;
+     padding-bottom: 5%;
+    float:  center;
+      margin-left:auto;
+   margin-right:auto;
+   display:block;
+}*/
+
+.description{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#logo{
+    width: 50%;
+    height: auto;
+}
+
+
+.col-md-6 {
+    height: 50%;
+}
+
+.spo{
+  padding-top: 5%;
+}
+.part{
+  padding-top: 5%;
+}
+.botto{
+  background-color:#00f2bb;
+}
+.image{
+  margin-bottom:5%;
+  margin-top: 5%;
+}
